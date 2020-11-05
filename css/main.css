@@ -1,0 +1,62 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;    
+    background: url("background.jpg");
+    background-size: auto;
+    padding-bottom: 25px;
+}
+
+#logo {
+    width: 20rem;
+    margin-top: 2em;
+    margin-bottom: 2em;
+    background-color: white;
+    border-radius: 2in;
+}
+
+.navBar nav {
+    max-height: 100%;
+    max-width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: black;
+    border-radius: 1em;
+    margin: -2em 25em 1em 25em;
+    padding: 1em 10em 1em 10em;
+    
+}
+
+nav a {
+    text-decoration: none;
+    color: whitesmoke;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+a:hover {
+    color: gray;
+    transform: scale(1.3);
+}
+#banner {
+    width: 50%;
+    margin: auto;
+}
+
+.mainContainer {
+    margin: auto;
+    
+    
+}
+.description {
+    background: rgba(255, 255, 255, 0.85); 
+    margin: 0em 15em 0em 15em ;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+/* .mainDiv {
+    background-color: white;
+   
+} */
